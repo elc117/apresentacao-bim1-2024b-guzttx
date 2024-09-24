@@ -21,7 +21,7 @@ module MyFunctions1 where
 
 -- 4. Defina uma função `isElderly :: Int -> Bool` que receba uma idade e resulte verdadeiro caso a idade seja maior que 65 anos.
     isElderly :: Int -> Bool
-    isElderly a = a >= 65 
+    isElderly a = a > 65 
 
 
 
@@ -40,7 +40,7 @@ module MyFunctions1 where
 
 -- Outras maneiras de fazer essa função:
 -- startsWithA :: String -> Bool
--- startsWithA string(x:xs) = x == 'A'
+-- startsWithA string(x:_) = x == 'A'
 
 -- startsWithA :: String -> Bool
 --startsWithA string = take 1 string == "A"
