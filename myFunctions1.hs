@@ -62,7 +62,7 @@ module MyFunctions1 where
 
 --Outra maneira:
 --isVowel :: Char -> Bool
---isVowel caractere = caractere elem c "aeiou"
+--isVowel caractere = elem caractere "aeiou"
 
 
 
