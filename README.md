@@ -92,7 +92,7 @@ A função 6, foi o mesmo caso da 5, tive que pesquisar por nunca ter manipulado
 A função 8 está correta, no entanto, há uma maneira mais simples de implementá-la usando a função "elem"
 ```sh    
     isVowel :: Char -> Bool
-    isVowel caractere = caractere elem "aeiou"
+    isVowel caractere = elem caractere "aeiou"
 ```
 9. Crie uma função `hasEqHeads :: [Int] -> [Int] -> Bool` que verifique se 2 listas possuem o mesmo primeiro elemento. Use a função `head` e o operador lógico `==` para verificar igualdade.
 ```sh
