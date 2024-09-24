@@ -25,3 +25,7 @@ Depois disso, já podemos utilizar o haskell em nossa máquina, bem como o ghci.
 > Após isso, selecionar a opção "Indent using spaces" e selecionar o número de espaços que serão dados ao clicar "tab".
 
 Pronto, agora é "só" programar.
+
+## Referências Bibliográficas
+https://www.haskell.org/ghcup/install/
+https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/04/README.md#32
